@@ -59,12 +59,12 @@
 You can change the links (and the icons too) in the HTML Code:
 
 ```html
-<a href="https://github.com/" target="self"  class="qlink__link qlink__link-1">
+<a href="https://github.com/" target="blank"  class="qlink__link qlink__link-1">
     <i class="qlink__icon" data-feather="github"></i>
 </a>
 ```
 
-Change the link in the `href` property with the link you want. (The ` target="self" ` makes the link to open a new tab with the link you choose).
+Change the link in the `href` property with the link you want. (The ` target="blank" ` makes the link to open a new tab with the link you choose).
 The Project uses [Feather icons](https://feathericons.com/) for the icons, and you can change them in the `data-feather=""` property with the name of the icon.
 
 ### Colors
